@@ -1,0 +1,42 @@
+.statistics {
+  font-family: Segoe UI, serif;
+  width: 420px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  border-radius: 20px;
+}
+
+.title {
+  color: rgb(153, 161, 161);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.statList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  color: white;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.percentage {
+  font-size: 20px;
+}
+.box {
+  border-radius: 25px;
+}
