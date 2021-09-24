@@ -9,12 +9,14 @@ import Container from 'components/Container/Container';
 import Profile from 'components/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics';
 
+import style from './App.css';
+
 
 //сборка на експорт
  export default function App() {
    return(
      <Container>
-       <h2>Profile</h2>
+       <h2 className='mainTitle'>Profile</h2>
        <Profile
        name = {user.name}
        tag = {user.tag}
@@ -23,7 +25,7 @@ import Statistics from 'components/Statistics/Statistics';
        stats = {user.stats}
        />
 
-       <h2>Statistics</h2>
+       <h2 className='mainTitle'>Statistics</h2>
        <Statistics title="Upload stats" stats={statisticalData} />
 
 
