@@ -20,6 +20,7 @@ export default function TransactionsHistory({items}) {//таблица (была
          <td>{currency}</td>
         </tr>
       ))}
+      
    
    
   </tbody>
