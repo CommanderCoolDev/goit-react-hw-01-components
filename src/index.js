@@ -8,7 +8,7 @@ import './index.css';
 import App from './App';
 
 
-ReactDOM.render(
+ReactDOM.render(//вот тут рендерится все
   <React.StrictMode>
     <App />
   </React.StrictMode>,

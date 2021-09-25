@@ -1,0 +1,37 @@
+.item {
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  margin-left: 10px;
+  width: 48px;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 35px;
+}
+
+.on {
+  background-color: #2adb65;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.off {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

@@ -8,11 +8,13 @@ import transactions from './API/transactions.json';
 import Container from 'components/Container/Container';
 import Profile from 'components/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics';
+import FriendList from 'components/FriendList/FriendList';
+import TransactionsHistory from 'components/TransactionsHistory/TransactionsHistory';
 
 import style from './App.css';
 
 
-//сборка на експорт
+//сборка на експорт в индекс .жс
  export default function App() {
    return(
      <Container>
@@ -27,6 +29,13 @@ import style from './App.css';
 
        <h2 className='mainTitle'>Statistics</h2>
        <Statistics title="Upload stats" stats={statisticalData} />
+
+       <h2 className='mainTitle'>Friends</h2>
+       <FriendList items={friends}/>
+
+       <h2 className='mainTitle'>Transactions History</h2>
+       <TransactionsHistory items={transactions}/>
+
 
 
 
